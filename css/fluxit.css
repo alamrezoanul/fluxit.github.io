@@ -11,5 +11,6 @@
 .headerArea {
     width: 100%;
     height: 100px;
-    background: #180c0f;
+    /* background: #180c0f; */
+    background-image: linear-gradient(to bottom, #3b3b3b, #180c0f);
 }
