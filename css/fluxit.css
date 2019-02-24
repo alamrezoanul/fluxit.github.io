@@ -1,3 +1,6 @@
+body {
+    font-family: Larsseit-Light;
+}
 .mainContainer {
     width: 100%;
     height: 100%;
@@ -10,7 +13,82 @@
 }
 .headerArea {
     width: 100%;
-    height: 100px;
+    height: 90px;
     /* background: #180c0f; */
     background-image: linear-gradient(to bottom, #3b3b3b, #180c0f);
+    float: left;
+    position: fixed;
+}
+.top_header {    
+    width: 1124px;
+    height: 20px;
+    margin: 0px auto;
+    padding: 0px;
+    position: relative;
+}
+.top_header_left {    
+    width: 300px;
+    height: 20px;
+    font-size: 14px;
+    color: #eee;
+    line-height: 20px;
+    float: left;
+}
+.top_header_center {    
+    width: 600px;
+    height: 20px;
+    font-size: 14px;
+    color: #eee;
+    border: 0px solid;
+    float: left;
+    line-height: 20px;
+    text-align: center;
+}
+.top_header_right {
+    width: 224px;
+    height: 20px;
+    font-size: 14px;
+    color: #eee;
+    line-height: 20px;
+    float: left; 
+    text-align: right;
+}
+.top_header_left i,
+.top_header_center i,
+.top_header_right i {color: #fe3c65;}
+
+.main_header {
+    width: 1124px;
+    height: 70px;
+    margin: 0px auto;
+    padding: 0px;
+    position: relative;
+}
+.logodiv {
+    float: left;
+    width: 200px;
+    height: 70px;    
+}
+.logodiv a {text-decoration: none;}
+a span.flux {
+    font-family: Larsseit-Bold;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 40px;
+    text-align: left;
+    letter-spacing: 10px;
+    text-decoration: none;
+}
+a span.fluxit {
+    font-family: Larsseit-Bold;
+    color: #e73711;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    letter-spacing: 3px;
+    text-decoration: none;
+    margin-left: 20px;
+    text-decoration: underline;
 }
