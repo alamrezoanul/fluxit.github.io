@@ -1,7 +1,5 @@
 body {
     font-family: Larsseit-Light;
-}
-.mainContainer {
     width: 100%;
     height: 100%;
     padding-right: 0;
@@ -10,147 +8,72 @@ body {
     margin-left: auto;
     background: #fff;
     float: left;
+    position: relative;
 }
-.headerArea {
+.mainContainer {
+    width: 1224px;
+    height: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    background: #fff;    
+    position: relative;
+}
+.AreaHeader {
+    width: 100%;
+    height: 70px;
+    background: #fff;
+    padding: 0px;
+    margin: 0px;
+    float: left;
+}
+.header {
+    width: 1224px;
+    height: 70px;
+    background: #fff;
+    margin: 0px auto;
+}
+.flux-logo .logo {
+    width: 40px;
+    height: 40px;
+    float: left;
+}
+.flux-logo div {
+    font-family: Larsseit-Bold;
+    font-size: 32px;
+    line-height: 40px;
+    color: #180c0f;
+    font-weight: 600;
+    letter-spacing: 5px;
+    float: left;
+    padding-left: 5px;
+} 
+.header .navbar-toggler {    
+    background-color: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.7);
+    border-radius: .25rem;
+}
+
+.header .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}   
+/* .headerArea {
     width: 100%;
     height: 90px;
-    /* background: #180c0f; */
+   
     background-image: linear-gradient(to bottom, #3b3b3b, #180c0f);
     float: left;
     position: fixed;
-}
-.top_header {    
-    width: 1124px;
-    height: 90px;
-    margin: 0px auto;
-    padding: 0px;
-    position: relative;
-}
-.logodiv {
-    float: left;
-    width: 124px;
-    height: 90px;  
-    padding: 10px 0px;  
-}
-.logodiv a {text-decoration: none;}
-a span.flux {
-    font-family: Larsseit-bold;
-    color: #fff;
-    font-size: 50px;
-    font-weight: 600;
-    line-height: 50px;
-    text-align: left;
-    letter-spacing: 10px;
-    text-decoration: none;
-}
-a span.fluxit {
-    font-family: Larsseit-Bold;
-    color: #e73711;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 20px;
-    text-align: left;
-    letter-spacing: 3px;
-    text-decoration: none;
-    margin-left: 36px;
-    text-decoration: underline;
-}
-.rightdiv {    
-    width: 1000px;
-    height: 90px;
-    float: left;    
-}
-.top_header_center{
-    width: 600px;
-    height: 20px;
-    float: left;    
-    font-size: 14px;
-    color: #eee;
-    border: 0px solid;
-    float: left;
-    line-height: 20px;
-    text-align: center;
-    font-style: italic;
-    padding-left: 102px;
-}
-.top_header_right {
-    width: 324px;
-    height: 20px;
-    font-size: 14px;
-    color: #eee;
-    line-height: 20px;
-    float: left; 
-    text-align: right;
-}
-.top_header_left i,
-.top_header_center i,
-.top_header_right i {color: #fe3c65;}
-
-.main_header {
-    width: 1124px;
-    height: 70px;
-    margin: 0px auto;
-    padding: 0px;
-    position: relative;
-}
-
+} */
 
 @media only screen and (max-width: 767px) { 
-    .top_header {    
-        width: 100%;        
-    }
-    .logodiv {
-        float: left;
-        width: 32%;
-        height: 90px;
-        padding: 10px 0px;
-    } 
-    a span.flux { padding-left: 10px;} 
-    a span.fluxit { margin-left: 30px;}
-    .rightdiv {
-        width: 68%;
-        height: 90px;
-        float: left;
-    }  
-    .top_header_center {    
+    .mainContainer {
         width: 100%;
-        text-align: center;
-        padding-left: 0px;
-        font-size: 11px;
-    }
-    .top_header_right {
+    }   
+    .header {
         width: 100%;
-        height: 20px;        
-        text-align: right;
-        font-size: 11px;
-        padding-right: 10px;
-    }
-    
-}
-
-/* Main menu */
-.main-menu {
-    float: left;
-    margin: 0px;
-    padding: 0px 0px 0px 50px;
-    text-align: left;
-    width: 700px;
-    height: 70px;
-}
-
-.main-menu .navbar-nav a.nav-link,
-.main-menu .navbar-nav a.nav-link:hover{
-    font-size: 20px;
-    font-family: Larsseit-Light;
-    font-weight: 300;
-    margin: 0px 15px;
-    color: #eee;
-}
-.main-menu .navbar-nav .nav-link.active {
-    color: #eee;
-}
-
-@media only screen and (max-width: 767px) { 
+    }    
     .main-menu {
         float: right;
         margin: 0px;
