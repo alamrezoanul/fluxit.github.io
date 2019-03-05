@@ -169,14 +169,18 @@ li.nav-item a.nav-link:hover {
 .slider-area {
     float: left;
     width: 100%;
-    height: 400px;
-    background: #180c0f;
+    height: 445px;
+    /* background: #180c0f; */
 }
 @media only screen and (max-width: 767px) { 
     .Main-Content-Area {
         float: left;
         width: 100%;
         height: auto;
+    }
+    .slider-area {        
+        height: 155px;
+        
     }
 }
 /* Main Content Area */
@@ -363,8 +367,6 @@ li.nav-item a.nav-link:hover {
     border-bottom: 1px solid rgba(250, 65, 102, .3);
 }
 
-
-
 @media only screen and (max-width: 767px) { 
     .footer-area {
         float: left;
@@ -393,3 +395,86 @@ li.nav-item a.nav-link:hover {
     }
 }
 /* <!-- Footer Area --> */
+
+/* top-four-block-area */
+.top-four-block-area {
+    float: left;
+    width: 100%;
+    height: 320px;
+    margin: 0px 0px;
+    padding: 0px;
+}
+.content-div-fourth {
+    float: left;
+    width: 290px;
+    height: 320px;
+    background: #fff;
+}
+.content-div-fourth-right {
+    float: right;
+    width: 290px;
+    height: 320px;
+    background: #fff;
+}
+.content-div-fourth-right img,
+.content-div-fourth img{
+    position: relative;
+    left: 0;
+    width: 100%;
+    height: auto;
+}
+.content-div-fourth-marginr {
+    margin-right: 21px;
+}
+.c-heading {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 600;
+    opacity: .95;
+    padding-top: 1px;
+    padding-bottom: 2px;
+    margin-top: 37px;
+}
+.c-paragraph {
+    padding-top: 2px;
+}
+.c-call-to-action span {
+    display: inline;
+}
+a.c-call-to-action span, button.c-call-to-action span {
+    max-width: 100%;
+    display: inline-block;
+    position: relative;
+    left: 0;
+    text-overflow: clip;
+    overflow: hidden;
+    transition: all 200ms ease-in-out;
+    vertical-align: top;
+    line-height: 27.5px;
+    font-size: 20px;
+    color: #0067b8;
+    cursor: pointer;
+}
+a.c-call-to-action span:hover {
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 767px) {
+    .top-four-block-area {        
+        height: auto;
+        margin: 0px 20px;
+    }
+    .content-div-fourth-right {
+        float: left;
+    }
+} 
+/* top-four-block-area */
+
+.icondiv { width: 89px;
+    height: 89px;
+    background: #ededed;
+    border:2px dashed #fe3c65;
+    border-radius: 100%;
+    margin: 10px auto;
+}
+
